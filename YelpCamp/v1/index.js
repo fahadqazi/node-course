@@ -5,7 +5,11 @@ var bodyparser = require('body-parser');
  var campgrounds = [
         {name: "Salmon Creek", image:"https://upload.wikimedia.org/wikipedia/commons/5/5a/Camping_by_Barriere_Lake,_British_Columbia_-_20040801.jpg"},
         {name: "Jacobs Creek", image:"http://www.wildnatureimages.com/images%203/060731-372..jpg"},
-        {name: "Brecon Beacons", image:"http://www.digii.eu/resizes/1200/2010/20100321-22%20Hiking%20by%20waterfalls%20in%20Brecon%20Beacons%20with%20Wouko/SX13242%20Campsite%20at%20Nant%20Hepste-fechan%20river.jpg"}
+        {name: "Brecon Beacons", image:"http://www.digii.eu/resizes/1200/2010/20100321-22%20Hiking%20by%20waterfalls%20in%20Brecon%20Beacons%20with%20Wouko/SX13242%20Campsite%20at%20Nant%20Hepste-fechan%20river.jpg"},
+        {name: "Salmon Creek", image:"https://upload.wikimedia.org/wikipedia/commons/5/5a/Camping_by_Barriere_Lake,_British_Columbia_-_20040801.jpg"},
+        {name: "Jacobs Creek", image:"http://www.wildnatureimages.com/images%203/060731-372..jpg"},
+        {name: "Salmon Creek", image:"https://upload.wikimedia.org/wikipedia/commons/5/5a/Camping_by_Barriere_Lake,_British_Columbia_-_20040801.jpg"},
+        {name: "Jacobs Creek", image:"http://www.wildnatureimages.com/images%203/060731-372..jpg"}
         ];
 
 app.use(bodyparser.urlencoded({extended:true}));
