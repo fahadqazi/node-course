@@ -1,1 +1,11 @@
+<% include partials/header%>
+
 <h1>Welcome back: <%= firstname%> <%= lastname %></h1>
+
+<%if(firstname.toLowerCase() === "fahad"){%>
+    <p>We've been expecting you </p><%= firstname%>
+<%    }else{    %>
+    <p>I don't even know who you are!</p>
+<%    }         %>
+
+<% include partials/footer %>
