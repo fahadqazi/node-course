@@ -12,4 +12,7 @@
 #Style the camgrounds page
 - Add a better head/title
 - Make camgrounds dispay in bootcamp style grid
-- 
+
+#Style the navbar and form
+- Add a navbar to all templates
+- style the new campgrounds form
