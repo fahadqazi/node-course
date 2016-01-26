@@ -7,3 +7,9 @@
 - Add in body-parser
 - Setup route to show form
 - add basic unstyled form
+-
+
+#Style the camgrounds page
+- Add a better head/title
+- Make camgrounds dispay in bootcamp style grid
+- 

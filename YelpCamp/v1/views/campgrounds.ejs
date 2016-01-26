@@ -7,14 +7,22 @@
     }
 </style>
 
+<div class="container">
+    <header class="jumbotron">
+        <h1>Welcome to YelpCamp!</h1>
+        <p>An awesome collection of campsites from around the world.</p>
+    </header>
+    
+    
+    <a href="/campgrounds/new" >Add a new camping ground</a>
+    
+    <% campgrounds.forEach(function(campground){ %>
+        <div>
+        <p></p><%= campground.name %></p>
+        <img weight="50" src= "<%= campground.image %>"/>
+        </div>
+    <% }); %>
 
-<h1>This is the Camping Grounds page!</h1>
-
-<% campgrounds.forEach(function(campground){ %>
-    <div>
-    <p></p><%= campground.name %></p>
-    <img weight="50" src= "<%= campground.image %>"/>
-    </div>
-<% }); %>
+</div>
 
 <% include partials/footer.ejs %>
