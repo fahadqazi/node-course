@@ -1,0 +1,20 @@
+<% include partials/header %>
+
+<style>
+    img{
+        width:200px;
+        
+    }
+</style>
+
+
+<h1>This is the Camping Grounds page!</h1>
+
+<% campgrounds.forEach(function(campground){ %>
+    <div>
+    <p></p><%= campground.name %></p>
+    <img weight="50" src= "<%= campground.image %>"/>
+    </div>
+<% }); %>
+
+<% include partials/footer.ejs %>

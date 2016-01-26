@@ -20,7 +20,6 @@ app.post("/addfriend", function(req,res){
 });
 
 app.get("/friends", function(req,res){
-    
     res.render("friends", {friends:friends});
 });
 
